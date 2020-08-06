@@ -4,9 +4,12 @@ using System.Text;
 
 namespace TreeViewer.DataStructures.BinaryTree
 {
-    class BinaryTree
+    public class BinaryTree
     {
         public BTNode Root { get; set; }
+        public List<int> PREOrderList = new List<int>();
+        public List<int> INOrderList = new List<int>();
+        public List<int> POSTOrderList = new List<int>();
 
         public bool Add(int value)
         {
@@ -83,33 +86,33 @@ namespace TreeViewer.DataStructures.BinaryTree
         }
 
 
-        public void TraversePreOrder(BTNode parent)
+        public void PREOrder(BTNode parent)
         {
             if (parent != null)
             {
-                Console.Write(parent.Data + " ");
-                TraversePreOrder(parent.LeftNode);
-                TraversePreOrder(parent.RightNode);
+                PREOrderList.Add(parent.Data);
+                PREOrder(parent.LeftNode);
+                PREOrder(parent.RightNode);
             }
         }
 
-        public void TraverseInOrder(BTNode parent)
+        public void INOrder(BTNode parent)
         {
             if (parent != null)
             {
-                TraverseInOrder(parent.LeftNode);
-                Console.Write(parent.Data + " ");
-                TraverseInOrder(parent.RightNode);
+                INOrder(parent.LeftNode);
+                INOrderList.Add(parent.Data);
+                INOrder(parent.RightNode);
             }
         }
 
-        public void TraversePostOrder(BTNode parent)
+        public void POSTOrder(BTNode parent)
         {
             if (parent != null)
             {
-                TraversePostOrder(parent.LeftNode);
-                TraversePostOrder(parent.RightNode);
-                Console.Write(parent.Data + " ");
+                POSTOrder(parent.LeftNode);
+                POSTOrder(parent.RightNode);
+                POSTOrderList.Add(parent.Data);
             }
         }
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TreeViewer.DataStructures.BinaryTree
 {
-    class BTNode
+    public class BTNode
     {
         public BTNode LeftNode { get; set; }
         public BTNode RightNode { get; set; }

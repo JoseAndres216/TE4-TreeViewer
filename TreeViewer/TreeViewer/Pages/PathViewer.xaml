@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TreeViewer.Pages.PathViewer"
+             BackgroundColor="#52be80">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="10" Spacing="10">
+            <Label Text="Muestra de nodos en el orden seleccionado" FontSize="Large" FontAttributes="Bold" TextColor="#EFEFEF" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"></Label>
+            <ListView x:Name="ListView" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="#EFEFEF"></ListView>
+            <Label x:Name="lblRoot" Text="Raiz: " FontSize="Large" FontAttributes="Bold" TextColor="#EFEFEF" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

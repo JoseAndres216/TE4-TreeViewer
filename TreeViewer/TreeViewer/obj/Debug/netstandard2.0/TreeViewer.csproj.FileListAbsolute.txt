@@ -3,8 +3,6 @@ C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\bin\Debu
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\bin\Debug\netstandard2.0\ref\TreeViewer.dll
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\bin\Debug\netstandard2.0\TreeViewer.pdb
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\TreeViewer.csprojAssemblyReference.cache
-C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\TreeViewer.AssemblyInfoInputs.cache
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\TreeViewer.AssemblyInfo.cs
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\TreeViewer.csproj.CoreCompileInputs.cache
@@ -12,3 +10,5 @@ C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debu
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\TreeViewer.dll
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\ref\TreeViewer.dll
 C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\TreeViewer.pdb
+C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\Pages\App.xaml.g.cs
+C:\Users\joseandresapps\tec\TreeViewer\TreeViewer\TreeViewer\TreeViewer\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs

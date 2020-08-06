@@ -4,13 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TreeViewer.MainPage">
+             x:Class="TreeViewer.MainPage"
+             BackgroundColor="#52be80">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="2" Spacing="100">
+        <Label Text="TreeViewer App" FontSize="Large" FontAttributes="Bold" TextColor="#EFEFEF" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="2" Spacing="20">
+            <Entry x:Name="txbNumber" Keyboard="Numeric" FontSize="Medium" TextColor="#82e0aa" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="#EFEFEF" Placeholder="Numero" PlaceholderColor="#82e0aa"></Entry>
+            <Button x:Name="btnAdd" Text="Agregar numero" FontSize="Medium" TextColor="#82e0aa" FontAttributes="Bold" BackgroundColor="#EFEFEF"></Button>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
